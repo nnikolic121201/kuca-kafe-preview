@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="same-origin">
+  <meta name="theme-color" content="#421a27">
+  <title>Upravljanje · Kuća kafe</title>
+  <link rel="stylesheet" href="/admin.css?v=2">
+  <script src="/assets/vendor/qrcode.js" defer></script>
+  <script src="/admin.js?v=2" defer></script>
+</head>
+<body>
+  <main id="login-screen" class="login-screen">
+    <section class="login-brand" aria-label="Kuća kafe">
+      <a href="/" class="wordmark" aria-label="Kuća kafe — početna"><img src="/assets/logo.svg" alt="Kuća kafe" width="144" height="132"><i>ČAČAK · GRADSKO ŠETALIŠTE</i></a>
+      <div class="brand-copy"><p class="eyebrow">IZA ŠANKA</p><h1>Dobra kafa.<br>Sve na svom mestu.</h1><p>Vaš meni, cene i male promene koje čine veliku razliku.</p></div>
+      <span class="brand-bottom">MESTO ZA VAŠ SVAKODNEVNI RITUAL.</span>
+    </section>
+    <section class="login-panel">
+      <div class="login-card">
+        <p class="eyebrow">PRIVATNI PRISTUP</p>
+        <h2>Dobro došli nazad.</h2>
+        <p class="muted login-description">Prijavite se za uređivanje ponude Kuće kafe.</p>
+        <form id="login-form">
+          <label for="username">Korisničko ime</label>
+          <input id="username" name="username" autocomplete="username" required maxlength="120" autocapitalize="none" spellcheck="false">
+          <label for="password">Lozinka</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required maxlength="200">
+          <p id="login-error" class="form-error" role="alert"></p>
+          <button id="login-submit" class="button button-primary button-wide" type="submit">Prijavi se <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="session-note">Pristup je namenjen osoblju lokala. Osvežavanje stranice zahteva novu prijavu.</p>
+        <a class="back-link" href="/">← Nazad na sajt</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="dashboard" class="dashboard" hidden>
+    <aside class="sidebar">
+      <a class="wordmark wordmark-small" href="/" aria-label="Kuća kafe — početna"><img src="/assets/logo.svg" alt="Kuća kafe" width="112" height="103"><i>PROSTOR ZA UPRAVLJANJE</i></a>
+      <div class="sidebar-menu">
+        <span class="eyebrow">VAŠ LOKAL</span>
+        <span class="nav-current"><span aria-hidden="true">☷</span> Cenovnik</span>
+        <button id="manage-categories" class="nav-button" type="button"><span aria-hidden="true">⊞</span> Kategorije</button>
+        <a class="nav-button" href="/meni" target="_blank" rel="noopener"><span aria-hidden="true">↗</span> Otvori javni meni</a>
+      </div>
+      <div class="sidebar-bottom"><span class="session-indicator"><i></i> Prijavljeni ste</span><button id="logout" class="logout" type="button">Odjavi se <span aria-hidden="true">↗</span></button></div>
+    </aside>
+    <main class="workspace">
+      <header class="workspace-header"><div><p class="eyebrow">KUĆA KAFE / UPRAVLJANJE</p><h1>Vaš cenovnik<span>.</span></h1><p class="muted">Osvežite ponudu. Promene su odmah dostupne gostima.</p></div><button id="new-product" class="button button-primary" type="button"><span aria-hidden="true">＋</span> Novi proizvod</button></header>
+      <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+      <section class="menu-tools" aria-label="Pretraga i kategorije"><label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Pronađite proizvod…" autocomplete="off"><span class="sr-only">Pretraga proizvoda</span></label><label class="category-select" for="category-filter"><span class="sr-only">Filtriraj po kategoriji</span><select id="category-filter"><option value="">Sve kategorije</option></select></label></section>
+      <div class="list-heading"><h2>Ponuda <span id="product-count">0</span></h2><p>Cene su izražene u RSD</p></div>
+      <div class="table-heading" aria-hidden="true"><span>PROIZVOD</span><span>CENA</span><span>DOSTUPNOST</span><span></span></div>
+      <section id="product-list" class="product-list" aria-label="Proizvodi"></section>
+      <section class="qr-note"><div class="qr-copy"><p class="eyebrow">JEDAN LINK. UVEK AKTUELAN MENI.</p><h2>Od stola do omiljene kafe.</h2><p>QR kod na stolovima vodi pravo na meni. Izmene ponude ne menjaju njegovu adresu.</p><form id="qr-form" class="qr-form"><label for="qr-url">Javna adresa menija</label><div class="qr-url-field"><input id="qr-url" type="url" required aria-describedby="qr-status" spellcheck="false"><button class="button button-outline" type="submit">Napravi QR</button></div></form><p id="qr-status" class="qr-status" role="status"></p><div class="qr-actions"><button id="copy-menu-link" class="text-link" type="button">Kopiraj link ↗</button><button id="download-qr" class="text-link" type="button" disabled>Preuzmi QR (SVG) ↓</button></div></div><div id="qr-preview" class="qr-preview" role="img" aria-label="QR kod za meni Kuće kafe"></div></section>
+      <footer class="workspace-footer"><span>KUĆA KAFE · ČAČAK</span><a href="/" target="_blank" rel="noopener">Pogledaj sajt ↗</a></footer>
+    </main>
+  </div>
+
+  <dialog id="product-dialog" aria-labelledby="product-dialog-title">
+    <form id="product-form" class="dialog-content">
+      <div class="dialog-header"><div><p class="eyebrow">PONUDA KUĆE KAFE</p><h2 id="product-dialog-title">Novi proizvod</h2></div><button class="icon-button close-dialog" type="button" aria-label="Zatvori uređivanje">×</button></div>
+      <input id="product-id" type="hidden">
+      <div class="form-grid"><div class="form-field full"><label for="product-name">Naziv proizvoda <span aria-hidden="true">*</span></label><input id="product-name" name="name" required maxlength="120" placeholder="Na primer: Cappuccino"></div>
+      <div class="form-field"><label for="product-category">Kategorija <span aria-hidden="true">*</span></label><select id="product-category" name="categoryId" required></select></div>
+      <div class="form-field"><label for="product-price">Cena (RSD) <span aria-hidden="true">*</span></label><input id="product-price" name="price" type="text" inputmode="decimal" required maxlength="12" placeholder="290" aria-describedby="price-help"><small id="price-help" hidden>Cene se uređuju po veličinama ispod.</small></div>
+      <section class="form-field full variant-editor" aria-labelledby="variant-editor-title"><div class="variant-heading"><h3 id="variant-editor-title">Veličine i cene <span class="optional">opciono</span></h3><button id="add-variant" class="button button-outline" type="button">＋ Dodaj veličinu</button></div><p class="variant-help">Za različite cene unesite veličine, na primer S, M i L. Redosled redova je redosled u meniju.</p><div id="variant-list" class="variant-list"></div></section>
+      <div class="form-field full"><label for="product-description">Opis <span class="optional">opciono</span></label><textarea id="product-description" name="description" rows="3" maxlength="1000" placeholder="Sastojci, ukus ili ono po čemu je poseban…"></textarea></div>
+      <div class="form-field"><label for="product-volume">Količina <span class="optional">opciono</span></label><input id="product-volume" name="volume" maxlength="60" placeholder="200 ml"></div>
+      <div class="form-field"><label for="product-order">Redosled prikaza</label><input id="product-order" name="order" type="number" min="0" max="9999" step="1" value="0"><small>Manji broj se prikazuje prvi.</small></div>
+      <div class="form-field full"><label for="product-photo">Fotografija <span class="optional">opciono</span></label><div class="upload-area"><img id="image-preview" class="image-preview" alt="Fotografija proizvoda" hidden><div class="upload-details"><input id="product-photo" name="photo" type="file" accept="image/jpeg,image/png,image/webp"><small>JPG, PNG ili WebP · do 3 MB</small><button id="remove-image" class="text-button" type="button" hidden>Ukloni fotografiju</button></div></div><input id="product-image" type="hidden"><p id="upload-status" class="input-status" role="status"></p></div>
+      <div class="form-field full checkbox-group"><label class="checkbox-label" for="product-available"><input id="product-available" type="checkbox" checked><span>Dostupan gostima<small>Isključite kada proizvod trenutno nije u ponudi.</small></span></label><label class="checkbox-label" for="product-featured"><input id="product-featured" type="checkbox"><span>Izdvojen proizvod<small>Označite posebnu preporuku iz ponude.</small></span></label></div></div>
+      <p id="product-error" class="form-error" role="alert"></p><div class="dialog-footer"><button class="button button-outline close-dialog" type="button">Otkaži</button><button id="save-product" class="button button-primary" type="submit">Sačuvaj proizvod</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="category-dialog" aria-labelledby="category-dialog-title">
+    <div class="dialog-content"><div class="dialog-header"><div><p class="eyebrow">ORGANIZACIJA PONUDE</p><h2 id="category-dialog-title">Kategorije</h2></div><button class="icon-button close-dialog" type="button" aria-label="Zatvori kategorije">×</button></div><p class="muted category-intro">Grupišite proizvode da bi gosti lakše pronašli svoj omiljeni napitak.</p><form id="category-form" class="category-add"><label class="sr-only" for="new-category-name">Naziv nove kategorije</label><input id="new-category-name" required maxlength="80" placeholder="Naziv nove kategorije"><button id="add-category" class="button button-primary" type="submit">Dodaj</button></form><div id="category-list" class="category-list"></div><p id="category-error" class="form-error" role="alert"></p><div class="dialog-footer"><button class="button button-outline close-dialog" type="button">Gotovo</button></div></div>
+  </dialog>
+</body>
+</html>

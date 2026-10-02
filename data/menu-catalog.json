@@ -1,0 +1,1026 @@
+{
+  "demo": false,
+  "categories": [
+    {
+      "id": "kafa",
+      "name": "Kafe"
+    },
+    {
+      "id": "specijalne",
+      "name": "Specijalne kafe"
+    },
+    {
+      "id": "latte",
+      "name": "Kafe latte"
+    },
+    {
+      "id": "sejkovi",
+      "name": "Šejkovi"
+    },
+    {
+      "id": "sladoledi",
+      "name": "Sladoledi"
+    },
+    {
+      "id": "sokovi",
+      "name": "Ceđeni sokovi"
+    },
+    {
+      "id": "smutiji",
+      "name": "Smutiji"
+    },
+    {
+      "id": "ledeni-cajevi",
+      "name": "Ledeni čajevi"
+    },
+    {
+      "id": "cajevi",
+      "name": "Čajevi"
+    },
+    {
+      "id": "bezalkoholna",
+      "name": "Bezalkoholna pića"
+    },
+    {
+      "id": "vode",
+      "name": "Vode"
+    }
+  ],
+  "products": [
+    {
+      "id": "espresso",
+      "categoryId": "kafa",
+      "name": "Espresso",
+      "description": "",
+      "price": 130,
+      "variants": [],
+      "volume": "",
+      "featured": true,
+      "order": 0,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "espresso-mleko",
+      "categoryId": "kafa",
+      "name": "Espresso sa mlekom",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 1,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "espresso-dupli",
+      "categoryId": "kafa",
+      "name": "Espresso dupli",
+      "description": "",
+      "price": 220,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 2,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "espresso-aroma",
+      "categoryId": "kafa",
+      "name": "Espresso aroma",
+      "description": "",
+      "price": 200,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 3,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "macchiato",
+      "categoryId": "kafa",
+      "name": "Macchiato",
+      "description": "",
+      "price": 140,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 4,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cappuccino",
+      "categoryId": "kafa",
+      "name": "Cappuccino",
+      "description": "",
+      "price": 180,
+      "variants": [
+        {
+          "label": "S",
+          "price": 180
+        },
+        {
+          "label": "M",
+          "price": 210
+        },
+        {
+          "label": "L",
+          "price": 230
+        }
+      ],
+      "volume": "",
+      "featured": true,
+      "order": 5,
+      "image": "/assets/coffee.webp",
+      "available": true
+    },
+    {
+      "id": "americano",
+      "categoryId": "kafa",
+      "name": "Americano",
+      "description": "",
+      "price": 140,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 6,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "domaca",
+      "categoryId": "kafa",
+      "name": "Domaća kafa",
+      "description": "",
+      "price": 100,
+      "variants": [
+        {
+          "label": "S",
+          "price": 100
+        },
+        {
+          "label": "M",
+          "price": 140
+        },
+        {
+          "label": "L",
+          "price": 160
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 7,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "krem-kafa",
+      "categoryId": "specijalne",
+      "name": "Krem kafa",
+      "description": "",
+      "price": 210,
+      "variants": [
+        {
+          "label": "S",
+          "price": 210
+        },
+        {
+          "label": "M",
+          "price": 240
+        },
+        {
+          "label": "L",
+          "price": 260
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 8,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "amaretto-kafa",
+      "categoryId": "specijalne",
+      "name": "Amaretto kafa",
+      "description": "",
+      "price": 190,
+      "variants": [
+        {
+          "label": "S",
+          "price": 190
+        },
+        {
+          "label": "M",
+          "price": 220
+        },
+        {
+          "label": "L",
+          "price": 240
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 9,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "karamel-kafa",
+      "categoryId": "specijalne",
+      "name": "Karamel kafa",
+      "description": "",
+      "price": 190,
+      "variants": [
+        {
+          "label": "S",
+          "price": 190
+        },
+        {
+          "label": "M",
+          "price": 220
+        },
+        {
+          "label": "L",
+          "price": 240
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 10,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cimet-kafa",
+      "categoryId": "specijalne",
+      "name": "Cimet kafa",
+      "description": "",
+      "price": 190,
+      "variants": [
+        {
+          "label": "S",
+          "price": 190
+        },
+        {
+          "label": "M",
+          "price": 220
+        },
+        {
+          "label": "L",
+          "price": 240
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 11,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "golden-kafa",
+      "categoryId": "specijalne",
+      "name": "Golden kafa",
+      "description": "",
+      "price": 190,
+      "variants": [
+        {
+          "label": "S",
+          "price": 190
+        },
+        {
+          "label": "M",
+          "price": 220
+        },
+        {
+          "label": "L",
+          "price": 240
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 12,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "fredo-hot",
+      "categoryId": "specijalne",
+      "name": "Fredo hot",
+      "description": "",
+      "price": 210,
+      "variants": [
+        {
+          "label": "S",
+          "price": 210
+        },
+        {
+          "label": "M",
+          "price": 240
+        },
+        {
+          "label": "L",
+          "price": 260
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 13,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "latte",
+      "categoryId": "latte",
+      "name": "Caffe Latte",
+      "description": "",
+      "price": 180,
+      "variants": [
+        {
+          "label": "S",
+          "price": 180
+        },
+        {
+          "label": "M",
+          "price": 210
+        },
+        {
+          "label": "L",
+          "price": 230
+        }
+      ],
+      "volume": "",
+      "featured": true,
+      "order": 14,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "latte-macchiato",
+      "categoryId": "latte",
+      "name": "Latte macchiato",
+      "description": "",
+      "price": 180,
+      "variants": [
+        {
+          "label": "S",
+          "price": 180
+        },
+        {
+          "label": "M",
+          "price": 210
+        },
+        {
+          "label": "L",
+          "price": 230
+        }
+      ],
+      "volume": "",
+      "featured": false,
+      "order": 15,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "gingerbread-latte",
+      "categoryId": "latte",
+      "name": "Gingerbread latte",
+      "description": "",
+      "price": 230,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 16,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "latte-aroma",
+      "categoryId": "latte",
+      "name": "Latte aroma",
+      "description": "",
+      "price": 230,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 17,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "shake-plazma",
+      "categoryId": "sejkovi",
+      "name": "Shake Plazma",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 18,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "shake-bounty",
+      "categoryId": "sejkovi",
+      "name": "Shake Bounty",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 19,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "shake-snickers",
+      "categoryId": "sejkovi",
+      "name": "Shake Snickers",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 20,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "shake-baylis",
+      "categoryId": "sejkovi",
+      "name": "Shake Baylis",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 21,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "karamel-cream",
+      "categoryId": "sladoledi",
+      "name": "Karamel cream",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 22,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "naomi-dream",
+      "categoryId": "sladoledi",
+      "name": "Naomi dream",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 23,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "energy",
+      "categoryId": "sladoledi",
+      "name": "Energy",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 24,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "plazma-cream",
+      "categoryId": "sladoledi",
+      "name": "Plazma cream",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 25,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "lesnik-dream",
+      "categoryId": "sladoledi",
+      "name": "Lešnik dream",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 26,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "fruit-fantasy",
+      "categoryId": "sladoledi",
+      "name": "Fruit fantasy",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 27,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "coffee-beat",
+      "categoryId": "sladoledi",
+      "name": "Coffee beat",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 28,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "kokos-dream",
+      "categoryId": "sladoledi",
+      "name": "Kokos dream",
+      "description": "",
+      "price": 260,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 29,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "limunada",
+      "categoryId": "sokovi",
+      "name": "Limunada",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": true,
+      "order": 30,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pomorandza",
+      "categoryId": "sokovi",
+      "name": "Ceđena pomorandža",
+      "description": "",
+      "price": 280,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 31,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cedjeni-grejp",
+      "categoryId": "sokovi",
+      "name": "Ceđeni grejp",
+      "description": "",
+      "price": 300,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 32,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cedjena-mix",
+      "categoryId": "sokovi",
+      "name": "Ceđena mix",
+      "description": "",
+      "price": 310,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 33,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "limunada-ukusi",
+      "categoryId": "sokovi",
+      "name": "Limunada sa ukusima",
+      "description": "",
+      "price": 190,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 34,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "red-mix",
+      "categoryId": "smutiji",
+      "name": "Red mix",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 35,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "sweet-elixir",
+      "categoryId": "smutiji",
+      "name": "Sweet elixir",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 36,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "sweet-honey",
+      "categoryId": "smutiji",
+      "name": "Sweet honey",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 37,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cool-sweet",
+      "categoryId": "smutiji",
+      "name": "Cool & Sweet",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 38,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "mint",
+      "categoryId": "smutiji",
+      "name": "Mint",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 39,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "pie",
+      "categoryId": "smutiji",
+      "name": "Pie",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 40,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "imuno-elixir",
+      "categoryId": "smutiji",
+      "name": "Imuno elixir",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 41,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "wake-up",
+      "categoryId": "smutiji",
+      "name": "Wake up",
+      "description": "",
+      "price": 330,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 42,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "ice-breskva-mango",
+      "categoryId": "ledeni-cajevi",
+      "name": "Breskva–Mango",
+      "description": "",
+      "price": 210,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 43,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "ice-limun-kokos",
+      "categoryId": "ledeni-cajevi",
+      "name": "Limun–Kokos",
+      "description": "",
+      "price": 210,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 44,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "ice-limun-menta",
+      "categoryId": "ledeni-cajevi",
+      "name": "Limun–Menta",
+      "description": "",
+      "price": 210,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 45,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "milford",
+      "categoryId": "cajevi",
+      "name": "Milford",
+      "description": "",
+      "price": 110,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 46,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "ronnefeldt",
+      "categoryId": "cajevi",
+      "name": "Ronnefeldt",
+      "description": "",
+      "price": 140,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 47,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "caj-rum",
+      "categoryId": "cajevi",
+      "name": "Čaj sa rumom",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 48,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "chai-tea-latte",
+      "categoryId": "cajevi",
+      "name": "Chai tea latte",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 49,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "coca-cola",
+      "categoryId": "bezalkoholna",
+      "name": "Coca cola",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 50,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "fanta",
+      "categoryId": "bezalkoholna",
+      "name": "Fanta",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 51,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "sprite",
+      "categoryId": "bezalkoholna",
+      "name": "Sprite",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 52,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "schweppes-bitter",
+      "categoryId": "bezalkoholna",
+      "name": "Schweppes bitter lemon",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 53,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "schweppes-tonic",
+      "categoryId": "bezalkoholna",
+      "name": "Schweppes tonic",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 54,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cedevita",
+      "categoryId": "bezalkoholna",
+      "name": "Cedevita",
+      "description": "",
+      "price": 140,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 55,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "cocta",
+      "categoryId": "bezalkoholna",
+      "name": "Cocta",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 56,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "guarana",
+      "categoryId": "bezalkoholna",
+      "name": "Guarana",
+      "description": "",
+      "price": 170,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 57,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "gusti-sokovi",
+      "categoryId": "bezalkoholna",
+      "name": "Gusti sokovi",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 58,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "kvas",
+      "categoryId": "bezalkoholna",
+      "name": "Kvas",
+      "description": "",
+      "price": 160,
+      "variants": [],
+      "volume": "",
+      "featured": false,
+      "order": 59,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "aqua-viva",
+      "categoryId": "vode",
+      "name": "Aqua Viva",
+      "description": "",
+      "price": 130,
+      "variants": [],
+      "volume": "0,25 l",
+      "featured": false,
+      "order": 60,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "knjaz-milos",
+      "categoryId": "vode",
+      "name": "Knjaz Miloš mineralna",
+      "description": "",
+      "price": 130,
+      "variants": [],
+      "volume": "0,25 l",
+      "featured": false,
+      "order": 61,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "kisela-casa-02",
+      "categoryId": "vode",
+      "name": "Kisela voda čaša",
+      "description": "",
+      "price": 60,
+      "variants": [],
+      "volume": "0,2 l",
+      "featured": false,
+      "order": 62,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "kisela-casa-01",
+      "categoryId": "vode",
+      "name": "Kisela voda čaša",
+      "description": "",
+      "price": 40,
+      "variants": [],
+      "volume": "0,1 l",
+      "featured": false,
+      "order": 63,
+      "image": "",
+      "available": true
+    },
+    {
+      "id": "knjaz-limun",
+      "categoryId": "vode",
+      "name": "Knjaz Limun",
+      "description": "",
+      "price": 150,
+      "variants": [],
+      "volume": "0,33 l",
+      "featured": false,
+      "order": 64,
+      "image": "",
+      "available": true
+    }
+  ]
+}

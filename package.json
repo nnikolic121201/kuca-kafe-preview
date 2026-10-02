@@ -1,0 +1,12 @@
+{
+  "name": "kuca-kafe-cacak",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kuća kafe — prezentacija, QR meni i privatna administracija bez praćenja posetilaca.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/server.test.mjs"
+  }
+}

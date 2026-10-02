@@ -1,0 +1,56 @@
+{
+  "retrievedAt": "2026-10-01",
+  "note": "Authentic images obtained from the public Instagram account named by the user. Original image contents are unchanged. Confirm publication rights with the business owner before commercial launch.",
+  "assets": [
+    {
+      "filename": "coffee.webp",
+      "sourceUrl": "https://www.instagram.com/kucakafe032/p/CpiYbnCtvxM/",
+      "authorAccount": "kucakafe032",
+      "description": "Cappuccino with heart latte art in the cafe, posted March 8, 2023."
+    },
+    {
+      "filename": "terrace.jpg",
+      "sourceUrl": "https://www.instagram.com/kucakafe032/p/CtyPd6ONXL8/",
+      "authorAccount": "kucakafe032",
+      "description": "Cafe terrace, floral planters and authentic Kuca Kafe sign; first carousel photo, posted June 22, 2023."
+    },
+    {
+      "filename": "terrace-detail.jpg",
+      "sourceUrl": "https://www.instagram.com/kucakafe032/p/CtyPd6ONXL8/",
+      "authorAccount": "kucakafe032",
+      "description": "Terrace entrance and cafe branding; second carousel photo, posted June 22, 2023."
+    },
+    {
+      "filename": "interior.webp",
+      "sourceUrl": "https://www.instagram.com/kucakafe032/p/CozYpwANao6/",
+      "authorAccount": "kucakafe032",
+      "description": "Warm wooden cafe interior, posted February 18, 2023."
+    },
+    {
+      "filename": "shake-chocolate.png",
+      "sourceUrl": "user-provided attachment codex-clipboard-76fb2f3a-5509-4033-b5f6-e139457e7f76.png",
+      "description": "User-supplied chocolate drink photograph, unchanged."
+    },
+    {
+      "filename": "sundae-strawberry.png",
+      "sourceUrl": "user-provided attachment codex-clipboard-7e8d0d91-f5e9-48b8-afaf-2c8f95ae0720.png",
+      "description": "User-supplied strawberry sundae photograph, unchanged."
+    },
+    {
+      "filename": "espresso-tools.png",
+      "sourceUrl": "user-provided attachment codex-clipboard-4ac84227-9814-4401-86ac-e53a4b4a990d.png",
+      "description": "User-supplied beans-to-coffee photograph, unchanged."
+    },
+    {
+      "filename": "coffee-cream.png",
+      "sourceUrl": "user-provided attachment codex-clipboard-9c1e8358-6956-4d05-b556-348abadc1208.png",
+      "description": "User-supplied two creamy coffees photograph, unchanged."
+    },
+    {
+      "filename": "logo-original.png",
+      "sourceUrl": "user-provided attachment codex-clipboard-e1ef2189-ceab-45d9-b2ea-3d63c53b8110.png",
+      "authorAccount": null,
+      "description": "Original user-provided photograph of the Kuca Kafe logo; unchanged."
+    }
+  ]
+}
